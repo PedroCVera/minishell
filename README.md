@@ -1,3 +1,3 @@
 # minishell
 
-Recreating a bash, a project made in partnership with @Hanhuka!
+Recreating a bash, a project made with @Hanhuka!
