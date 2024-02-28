@@ -104,10 +104,8 @@ void	add_to_tree(int id, char *str, t_parse prs)
 
 void	check_export(char *str, int id, t_parse prs)
 {
-	int		i;
 	char	*test;
 
-	i = 0;
 	test = remove_quotes(str);
 	if (!ft_strncmp(test, "export", ft_strlen(test)) && id == CMD)
 		*(prs.exprt) = 1;

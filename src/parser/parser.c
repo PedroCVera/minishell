@@ -33,9 +33,7 @@ void	parser(char *str, t_tree **tree, int count, char ***env)
 {
 	t_pipe	*pipes;
 	char	**matrix;
-	int		i;
 
-	i = 0;
 	pipes = NULL;
 	str = treat_tilde(str, *env);
 	check_pipes(str);

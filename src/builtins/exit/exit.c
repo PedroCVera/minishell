@@ -49,9 +49,7 @@ int	matrix_size(char **matrix)
 int	ft_exit(char **args)
 {
 	int	nbr;
-	int	i;
 
-	i = 1;
 	nbr = 0;
 	if (args[1] && is_nbr(args[1]))
 		nbr = 1;
